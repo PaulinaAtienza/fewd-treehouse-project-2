@@ -1,3 +1,5 @@
+/* Page Styles */
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,18 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
 }

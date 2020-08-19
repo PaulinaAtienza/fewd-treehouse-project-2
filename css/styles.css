@@ -37,7 +37,8 @@ img {
     padding: 50px 50px;
 }
 
-.profile {
+.profile, 
+.contact {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -47,6 +48,5 @@ img {
 }
 
 .contact {
-    padding-left: 15px;
-    padding-right: 15px;
+
 }

@@ -74,6 +74,10 @@ img {
     margin: 0 auto;
 }
 
+.bottom-contact {
+    display: none;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -126,6 +130,30 @@ img {
 
     .container {
         padding: 50px 0;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .bottom-nav {
+        float: right;
+    }
+    
+    .bottom-nav li {
+        float: left;
+        margin-left: 25px;
+        padding-left: 1em;
+        background: none;
+    }
+
+    .bottom-nav a {
+        padding: 0;
+    }
+
+    .main-footer {
+        padding-right: 1em;
+        padding-left: 1em;
     }
 
     .clearfix::after {

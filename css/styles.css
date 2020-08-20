@@ -7,14 +7,15 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background-color: #f7f7f7;
+    color: #32292f;
+    background-color: #99e1d9;
     text-align: center;
     line-height: 1.7em;
 }
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #705d56;
 }
 
 ul {
@@ -29,7 +30,7 @@ img {
 /* Class Styles */
 
 .container {
-    background-color: #fff;
+    background-color: #f0f7f4;
     padding: 50px 50px;
 }
 
@@ -45,7 +46,7 @@ img {
 }
 
 .main-nav li {
-	background: #fff;
+	background: #f0f7f4;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
@@ -74,7 +75,7 @@ img {
     margin: 0 auto;
 }
 
-.bottom-contact {
+.bottom-nav {
     display: none;
 }
 

@@ -107,6 +107,7 @@ img {
         padding-top: 2em;
         padding-left: 1em;
         padding-right: 1em;
+        min-height: 450px;
     }
 
     .container {
@@ -145,13 +146,6 @@ img {
     .photo,
     .calculator {
         width: 33.333%;
-    }
-
-    .col {
-        float: left;
-        padding-top: 2em;
-        padding-left: 1em;
-        padding-right: 1em;
     }
 
     .container {

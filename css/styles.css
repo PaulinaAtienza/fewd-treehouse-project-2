@@ -51,9 +51,9 @@ img {
 }
 
 .main-nav a {
-  padding: 10px 15px;
-  display: block;
-  text-transform: uppercase;
+    padding: 10px 15px;
+    display: block;
+    text-transform: uppercase;
 }
 
 .name-bottom {
@@ -68,8 +68,51 @@ img {
 }
 
 .contact {
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     border-bottom: 1px solid #4e4e4e;
     width: 90%;
     margin: 0 auto;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+    .profile-pic {
+        float: right;
+        width: 40%;
+        margin-left: 1em;
+        margin-bottom: 3em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .intro {
+        text-align: left;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .marketing, 
+    .search, 
+    .travel, 
+    .map,
+    .photo,
+    .calculator {
+        width: 50%;
+    }
+
+    .col {
+        float: left;
+        padding-top: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 }

@@ -10,7 +10,6 @@ body {
     background-color: #f7f7f7;
     text-align: center;
     line-height: 1.7em;
-    margin: 0;
 }
 
 a {
@@ -55,4 +54,22 @@ img {
   padding: 10px 15px;
   display: block;
   text-transform: uppercase;
+}
+
+.name-bottom {
+    float: left;
+    padding: 1.5em;
+}
+
+.top {
+    float: right;
+    text-transform: uppercase;
+    padding: 1.5em;
+}
+
+.contact {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #4e4e4e;
+    width: 90%;
+    margin: 0 auto;
 }

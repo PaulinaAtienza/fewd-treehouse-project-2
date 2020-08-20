@@ -78,6 +78,28 @@ img {
 
 @media (min-width: 768px) {
 
+    .main-nav {
+        float: right;
+    }
+    
+    .main-nav li {
+        float: left;
+        margin-left: 25px;
+        background: none;
+    }
+
+    .main-nav a {
+        padding: 0;
+    }
+
+    .main-header {
+        padding: 2em;
+    }
+    
+    .name {
+        float: left;
+    }
+
     .profile-pic {
         float: right;
         width: 40%;
@@ -93,16 +115,8 @@ img {
         padding-right: 1em;
     }
 
-    .marketing, 
-    .search, 
-    .travel, 
-    .map,
-    .photo,
-    .calculator {
-        width: 50%;
-    }
-
     .col {
+        width: 50%;
         float: left;
         padding-top: 2em;
         padding-left: 1em;
@@ -139,12 +153,7 @@ img {
         padding-right: 1em;
     }
 
-    .marketing, 
-    .search, 
-    .travel, 
-    .map,
-    .photo,
-    .calculator {
+    .col {
         width: 33.333%;
     }
 

@@ -88,21 +88,22 @@ img {
     padding-top: 2em;
 }
 
+.name-bottom, 
+.top {
+    padding: 1.5em;
+}
+
 .name-bottom {
     float: left;
     font-weight: bold;
-    padding: 1.5em;
 }
 
 .top {
     float: right;
     text-transform: uppercase;
-    padding: 1.5em;
 }
 
 .contact-info {
-    padding-top: 3em;
-    padding-bottom: 3em;
     border-bottom: 1px solid #acaa9d;
     width: 90%;
     margin: 0 auto;
@@ -117,7 +118,11 @@ img {
 @media (min-width: 768px) {
 
     .main-header {
-        padding: 2em 2em;
+        padding: 2em 2em 3em;
+    }
+
+    .name {
+        padding: 0;
     }
 
     .main-nav ul {
@@ -128,19 +133,21 @@ img {
     .main-nav a {
         display: inline;
     }
+
+    .main-nav a:active {
+        box-shadow: none;
+    }
     
     .main-nav li {
         background: none;
         box-shadow: none;
     }
 
-    a:active {
-        box-shadow: none;
-    }
-
     .profile-pic {
         float: right;
         width: 50%;
+        padding-top: 0;
+        padding-bottom: 0;
         padding-left: 10px;
     }
 
@@ -151,7 +158,6 @@ img {
     .col {
         width: 50%;
         float: left;
-        padding-top: 2em;
         padding-left: 1em;
         padding-right: 1em;
         min-height: 450px;
@@ -166,23 +172,17 @@ img {
     }
 
     .bottom-nav {
+        display: inline;
         float: right;
     }
     
     .bottom-nav li {
         float: left;
-        margin-left: 25px;
-        padding-left: 1em;
-        background: none;
+        padding: .5em 1.5em;
     }
 
     .bottom-nav a {
         padding: 0;
-    }
-
-    .main-footer {
-        padding-right: 1em;
-        padding-left: 1em;
     }
 
     .clearfix::after {

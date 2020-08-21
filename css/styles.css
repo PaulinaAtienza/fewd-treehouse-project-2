@@ -1,8 +1,10 @@
-/* Element Styles */
+/* ===== Universal Styles ===== */
 
 * {
     box-sizing: border-box;
 }
+
+/* ===== Element Styles ===== */
 
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -11,6 +13,11 @@ body {
     background-color: #dddbcb;
     text-align: center;
     line-height: 1.7em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -27,42 +34,19 @@ a:active {
     color: #d8d19f;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 img {
     max-width: 100%;
 }
 
-/* Class Styles */
-
-.profile-pic {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.container {
-    background-color: #f5f1e3;
-}
-
-.container, 
-.skillset {
-    padding: 50px 50px;
-}
-
-.skillset {
-    background-color: #d8d19f;
-}
-
-.name {
-    padding-bottom: 25px;
-}
+/* ===== Class Styles ===== */
 
 .main-header, 
 .contact-info {
     padding: 2em 1em;
+}
+
+.name {
+    padding-bottom: 25px;
 }
 
 .main-nav li {
@@ -84,8 +68,36 @@ img {
                 0 1px 1px rgba(255, 255, 255, 0.3);
 }
 
+.profile-pic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    background-color: #f5f1e3;
+}
+
+.container, 
+.skillset {
+    padding: 50px 50px;
+}
+
 .col {
     padding-top: 2em;
+}
+
+.skillset {
+    background-color: #d8d19f;
+}
+
+.contact-info {
+    border-bottom: 1px solid #acaa9d;
+}
+
+.contact-info, 
+.main-footer {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .name-bottom, 
@@ -102,16 +114,6 @@ img {
 .top {
     float: right;
     text-transform: uppercase;
-}
-
-.contact-info {
-    border-bottom: 1px solid #acaa9d;
-}
-
-.contact-info, 
-.main-footer {
-    width: 90%;
-    margin: 0 auto;
 }
 
 .bottom-nav {
@@ -156,6 +158,11 @@ img {
         box-shadow: none;
     }
 
+    .intro {
+        text-align: left;
+        width: 50%
+    }
+
     .profile-pic {
         float: right;
         width: 50%;
@@ -164,9 +171,8 @@ img {
         padding-left: 10px;
     }
 
-    .intro {
-        text-align: left;
-        width: 50%
+    .container {
+        padding: 50px 0;
     }
 
     .col {
@@ -175,10 +181,6 @@ img {
         padding-left: 1em;
         padding-right: 1em;
         min-height: 450px;
-    }
-
-    .container {
-        padding: 50px 0;
     }
 
     .top {
@@ -235,13 +237,13 @@ img {
         padding-right: 0;
     }
 
+    .intro {
+        width: 60%;
+    }
+
     .profile-pic {
         width: 40%;
         padding-left: 20px;
-    }
-
-    .intro {
-        width: 60%;
     }
 
     .col {

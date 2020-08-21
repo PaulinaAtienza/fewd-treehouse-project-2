@@ -188,7 +188,7 @@ img {
     }
 
     .bottom-nav {
-        display: inline;
+        display: block;
         float: right;
     }
     

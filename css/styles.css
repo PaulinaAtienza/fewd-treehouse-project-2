@@ -7,15 +7,20 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    color: #32292f;
-    background-color: #99e1d9;
+    color: #050505;
+    background-color: #dddbcb;
     text-align: center;
     line-height: 1.7em;
 }
 
 a {
     text-decoration: none;
-    color: #705d56;
+    color: #1b9aaa;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d34f73;
 }
 
 ul {
@@ -30,25 +35,28 @@ img {
 /* Class Styles */
 
 .container {
-    background-color: #f0f7f4;
+    background-color: #f5f1e3;
+}
+
+.container, 
+.skillset {
     padding: 50px 50px;
 }
 
-.profile, 
-.contact-info,
-.main-header {
+.skillset {
+    background-color: #d8d19f;
+}
+
+.main-header, 
+.contact-info {
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.name {
-    padding-top: 5px;
-}
-
 .main-nav li {
-	background: #f0f7f4;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	background: #fff;
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
 
 .main-nav a {
@@ -57,8 +65,13 @@ img {
     text-transform: uppercase;
 }
 
+.col {
+    padding-top: 2em;
+}
+
 .name-bottom {
     float: left;
+    font-weight: bold;
     padding: 1.5em;
 }
 
@@ -69,8 +82,9 @@ img {
 }
 
 .contact-info {
+    padding-top: 3em;
     padding-bottom: 3em;
-    border-bottom: 1px solid #4e4e4e;
+    border-bottom: 1px solid #acaa9d;
     width: 90%;
     margin: 0 auto;
 }
@@ -189,12 +203,6 @@ img {
     .container {
         padding: 50px 0;
         margin: 20px;
-    }
-
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
     }
 
 }

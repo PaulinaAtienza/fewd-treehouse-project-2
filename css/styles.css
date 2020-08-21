@@ -171,18 +171,24 @@ img {
         display: none;
     }
 
+    .main-footer{
+        padding-bottom: 2em;
+    }
+
+    .name-bottom {
+        padding-left: 2em;
+    }
+
     .bottom-nav {
         display: inline;
         float: right;
+        padding-right: 2em;
     }
     
     .bottom-nav li {
         float: left;
-        padding: .5em 1.5em;
-    }
-
-    .bottom-nav a {
-        padding: 0;
+        padding-top: .5em;
+        padding-left: 1em;
     }
 
     .clearfix::after {
